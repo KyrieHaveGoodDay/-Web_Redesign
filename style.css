@@ -8,5 +8,17 @@ nav {
     display: grid;
     grid-template-columns: 20% 70% 10%;
     background: #eee;
+    /* bs */
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.15);
+    padding: 20px 30px;
+    align-items: center;
+}
+
+#logo img {
+    width: 50px;
+}
+
+#link a {
+    padding: 0 35px;
+    text-decoration: none;
 }
