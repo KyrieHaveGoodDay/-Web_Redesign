@@ -21,4 +21,45 @@ nav {
 #link a {
     padding: 0 35px;
     text-decoration: none;
+    /* text-align: center; */
+    /* margin-left: 70px; */
+    transition: 0.5s;
+}
+
+#link a:hover {
+    color: #226641;
+    border: 5px #226641;
+}
+
+/* 產品 */
+#product {
+    width: 1280px;
+    margin: 0 auto;
+}
+#product > div {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+.pic img {
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+}
+#product .text {
+    padding: 80px 30px 0;
+}
+
+#product .text h1 {
+    padding: 30px 0;
+}
+
+#product .text p {
+    width: 300px;
+    line-height: 2;
+    padding: 10px 0;
+}
+/* 指定子元素中的特定項次做更改 */
+/* odd even基數偶數 */
+#product > div:nth-child(2) {
+    background: gold;
 }
