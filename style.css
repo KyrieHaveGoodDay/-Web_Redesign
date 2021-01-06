@@ -38,7 +38,7 @@ nav {
 }
 #product > div {
     display: grid;
-    grid-template-columns: 50% 50%;
+    grid-template-columns: 60% 40%;
 }
 .pic img {
     width: 100%;
@@ -58,8 +58,20 @@ nav {
     line-height: 2;
     padding: 10px 0;
 }
+
 /* 指定子元素中的特定項次做更改 */
 /* odd even基數偶數 */
 #product > div:nth-child(2) {
-    background: gold;
+    /* 格線樣板區域：利用格線區域名稱設定順序 */
+    grid-template-areas: "pic text";
+    grid-template-columns: 60% 40%;
+}
+
+#product > div:nth-child(2) .text {
+    /* 格線區域：此區域名稱 */
+    grid-area: text;
+}
+#product > div:nth-child(2) .pic {
+    /* 格線區域：此區域名稱 */
+    grid-area: pic;
 }
