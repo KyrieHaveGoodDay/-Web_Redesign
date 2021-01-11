@@ -24,6 +24,7 @@ nav {
     /* text-align: center; */
     margin-left: 130px;
     transition: 0.5s;
+    color: black;
 }
 
 #link a:hover {
