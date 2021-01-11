@@ -38,7 +38,8 @@ nav {
 }
 #product > div {
     display: grid;
-    grid-template-columns: 60% 40%;
+    grid-template-columns: 40% 60%;
+    margin: 20px 0;
 }
 #product .pic img {
     width: 100%;
