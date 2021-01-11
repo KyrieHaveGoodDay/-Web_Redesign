@@ -22,7 +22,7 @@ nav {
     padding: 0 35px;
     text-decoration: none;
     /* text-align: center; */
-    /* margin-left: 70px; */
+    margin-left: 130px;
     transition: 0.5s;
 }
 
@@ -114,4 +114,24 @@ nav {
 #info .text p {
     padding: 10px 0 25px;
     line-height: 2;
+}
+
+footer {
+    background: #eee;
+    margin-top: 100px;
+    padding: 50px;
+    text-align: center;
+}
+
+#footer-link {
+    margin: 20px 0;
+}
+#footer-link a {
+    text-decoration: none;
+    color: #226641;
+}
+
+#footer-copy {
+    color: rgb(146, 144, 144);
+    font-size: 8px;
 }
