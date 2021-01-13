@@ -22,9 +22,10 @@ nav {
     padding: 0 35px;
     text-decoration: none;
     /* text-align: center; */
-    margin-left: 130px;
+    /* margin-left: 130px; */
     transition: 0.5s;
     color: black;
+    /* text-align: center; */
 }
 
 #link a:hover {
@@ -59,6 +60,57 @@ nav {
     width: 300px;
     line-height: 2;
     padding: 10px 0;
+}
+
+#banner div {
+    height: 100vh;
+}
+
+#banner {
+    color: white;
+    text-align: center;
+    width: 100%;
+}
+#banner h1 {
+    font-size: 80px;
+    margin-top: 300px;
+}
+#banner hr {
+    width: 80%;
+    margin: 0 auto;
+    height: 3px;
+    background: #fff;
+    border: none;
+}
+#banner p {
+    font-size: 28px;
+}
+#banner .slick-prev {
+    left: 50px;
+    z-index: 1;
+}
+#banner .slick-next {
+    right: 50px;
+    z-index: 1;
+}
+#banner .slick-dots {
+    bottom: 25px;
+}
+
+.banner1 {
+    background-image: url(./img/banner1-min.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.banner2 {
+    background-image: url(./img/banner2-min.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.banner3 {
+    background-image: url(./img/banner3-min.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 /* 指定子元素中的特定項次做更改 */
